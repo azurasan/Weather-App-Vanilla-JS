@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-position: top center;
+}
+
+
+input,
+button {
+    margin-top: 2rem;
+    border: none;
+    outline: none;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+}
+
+input {
+    font-weight: 300;
+}
+
+button {
+    margin-left: -0.3rem;
+    background-color: #1f1f1f;
+    color: #fff;
+    padding: 0.5rem 1rem;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:active {
+    color: orange;
+}
+
+main {
+    margin-top: 2.5rem;
+    text-align: center;
+}
+
+.city {
+    letter-spacing: 1px;
+    text-shadow: 1px 3px rgba(0, 0, 0, .7);
+}
+
+.temp {
+    font-size: 5rem;
+    font-weight: 700;
+    text-shadow: 1px 3px rgba(0, 0, 0, .7);
+}
+
+.weather {
+    font-weight: 500;
+    font-size: 1.5rem;
+    text-shadow: 1px 3px rgba(0, 0, 0, .7);
+}
+
+@media screen and (min-width: 360px) and (max-width: 600px) {
+    input,
+    button {
+    padding: 0.5rem 0.3rem;
+    font-size: 1.1rem;
+    }
+}
